@@ -7,7 +7,7 @@ on:
   push:
   pull_request:
     branches:
-      - master
+      - dx11
 
 concurrency:
   group: build-${{ github.ref }}
